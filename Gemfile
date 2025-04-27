@@ -10,7 +10,10 @@ gem 'sqlite3', '~> 1.4'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 gem 'bigdecimal'
+gem 'httparty'
 gem 'mutex_m'
+gem 'dotenv-rails', groups: [:development, :test]
+
 gem 'benchmark'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
